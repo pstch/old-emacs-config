@@ -7,6 +7,8 @@
 
 ;; Custom file
 (setq custom-file "~/.emacs.d/custom/custom.el")
+(unless (file-exists-p custom-file)
+  (write-region "" nil custom-file))
 (load custom-file)
 
 ;; Set default browser
