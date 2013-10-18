@@ -1,13 +1,0 @@
-;;; hide-lines-autoloads.el --- automatically extracted autoloads
-;;
-;;; Code:
-
-
-(provide 'hide-lines-autoloads)
-;; Local Variables:
-;; version-control: never
-;; no-byte-compile: t
-;; no-update-autoloads: t
-;; coding: utf-8
-;; End:
-;;; hide-lines-autoloads.el ends here
