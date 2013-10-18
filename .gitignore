@@ -1,12 +1,13 @@
 ~*
 .elc
+
 ac-comphist.dat
 auto-save-list/
 
 tramp
-eshell/
 bookmarks
 
+eshell/
 elpa/
 
 /custom/custom.el
