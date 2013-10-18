@@ -3,6 +3,11 @@ emacs-config
 
 This repository contains my personal emacs configuration, the contents of my ~/.emacs.d directory. This configuration should be able to run everywhere where emacs24 is installed. The needed elisp applications will be installed with MELPA at the first emacs launch.
 
+Depends:
+ - emacs24
+ - GnuPG
+ - mu4e
+
 This configuration provides the following features :
  - MELPA packages installed at the first boot (list below)
  - Custom file automatically created in ~/.emacs.d/custom/custom.el
