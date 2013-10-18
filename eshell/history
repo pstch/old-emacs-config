@@ -1,0 +1,10 @@
+ls
+cd ..
+ls
+cd pstch-www/
+emacs index.html 
+htop
+ls
+exit
+git commit -a -m "test"
+git push
