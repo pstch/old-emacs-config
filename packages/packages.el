@@ -12,14 +12,13 @@
 
 ;; packages to check for
 (setq package-list '(direx
+		     yasnippet
 		     deferred
 		     epc
 		     git-commit-mode
 		     git-rebase-mode
 		     guru-mode
 		     hide-lines
-		     jedi
-		     jedi-direx
 		     latex-pretty-symbols
 		     magit
 		     markdown-mode
