@@ -16,6 +16,7 @@ This configuration provides the following features :
  - Undo tree
  - tangotango theme (currently)
  - Python Jedi (autocompletion)
+ - *Optional* emacs-hyde: mode for editing jekyll (started only if hyde is located in `~/.emacs.d/hyde/`)
  - org-mode (+ agenda keybindings; indented mode)
    - **You should change the `org-default-notes-file` value in `org-settings.el`**
  - Guru Mode (not activated by default, see `modes.el` ; great for learning emacs base keybindings)

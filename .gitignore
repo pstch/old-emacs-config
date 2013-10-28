@@ -10,5 +10,7 @@ bookmarks
 eshell/
 elpa/
 
+hyde/
+
 /custom/custom.el
 
