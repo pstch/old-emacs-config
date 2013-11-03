@@ -17,7 +17,7 @@
  smtpmail-local-domain "pstch.net"
  smtpmail-auth-credentials (expand-file-name "~/.authinfo.gpg")
  smtpmail-smtp-server "preeza.vpn.pstch.net"
- smtpmail-smtp-service 12143)
+ smtpmail-smtp-service 12025)
 
 (setq mu4e-attachment-dir  "~/mail/downloads")
 
@@ -75,6 +75,7 @@
   '(("default"
      (user-mail-address "hugo@pstch.net"))
      (smtpmail-default-smtp-server "preeza.vpn.pstch.net:")
+     (smtpmail-smtp-service 12025)
     ("gmail/hugo.geoffroy"
      (user-mail-address "hugo.geoffroy@gmail.com")
      (smtpmail-default-smtp-server "smtp.gmail.com"))

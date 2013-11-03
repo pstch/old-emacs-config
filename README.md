@@ -27,6 +27,7 @@ This configuration provides the following features :
    - SMTP credentials stored GPG-encrypted in `.authinfo.gpg` (decrypted when needed, using gpg-agent if possible)
    - (Attachment) Downloads in `~/mail/downloads`
    - Will run `offlineimap` when updating mail
+   - Integration with **org-capture**
    - Uses `mu4e-maildirs-extension` to show list of read/unread mails in different maildirs.
      - **You should also change the folders listed in `mu4e-maildirs-shortcuts`**
    - Custom action in message view, to open the HTML part of a message in the default file browser, using a temporary file. To me, far more efficient than viewing it in `w3m`.
