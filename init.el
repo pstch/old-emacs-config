@@ -42,7 +42,7 @@
 
 ;; Custom org settings
 (require 'org-settings)
-
+(require 'org-capture-templates)
 ;; Custom mu4e settings
 (require 'mu4e-settings)
 (require 'mu4e-org-capture)
