@@ -13,9 +13,11 @@
  mu4e-drafts-folder "/default/drafts"     ;; unfinished messages
  mu4e-trash-folder  "/default/trash"      ;; trashed messages
  mu4e-refile-folder "/default/archive"    ;; saved messages
+ smtpmail-queue-folder  "/default/queue"  ;; queued mail
  smtpmail-local-domain "pstch.net"
  smtpmail-auth-credentials (expand-file-name "~/.authinfo.gpg")
- smtpmail-smtp-server "pstch.net")
+ smtpmail-smtp-server "preeza.vpn.pstch.net"
+ smtpmail-smtp-service 12143)
 
 (setq mu4e-attachment-dir  "~/mail/downloads")
 
@@ -32,6 +34,7 @@
 (mu4e-maildirs-extension)
 (setq   mu4e-maildir-shortcuts
 	'(("/default/INBOX"         . ?i)
+	  ("/default/queue"	    . ?q)
 	  ("/default/sent"          . ?s)
 	  ("/default/drafts"        . ?d)
 
@@ -71,6 +74,7 @@
 (defvar my-mu4e-account-alist
   '(("default"
      (user-mail-address "hugo@pstch.net"))
+     (smtpmail-default-smtp-server "preeza.vpn.pstch.net:")
     ("gmail/hugo.geoffroy"
      (user-mail-address "hugo.geoffroy@gmail.com")
      (smtpmail-default-smtp-server "smtp.gmail.com"))
