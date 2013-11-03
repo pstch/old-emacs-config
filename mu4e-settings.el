@@ -1,5 +1,10 @@
+;; org-mu4e
+;; (require 'org-mu4e)
+
 ;; global shortcut
 (global-set-key "\C-cm" 'mu4e)
+
+(setq mail-user-agent 'mu4e-user-agent)
 
 ;; default folders
 (setq

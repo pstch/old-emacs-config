@@ -6,14 +6,14 @@
 (add-to-list 'load-path "~/.emacs.d/packages/")
 (add-to-list 'load-path "~/.emacs.d/hyde/")
 
+;; Safe load
+(require 'safe-load)
+
 ;; Custom file
 (setq custom-file "~/.emacs.d/custom/custom.el")
 (unless (file-exists-p custom-file)
   (write-region "" nil custom-file))
 (load custom-file)
-
-;; Safe load
-(require 'safe-load)
 
 ;; Set default browser
 (setq browse-url-browser-function 'browse-url-generic
@@ -28,6 +28,8 @@
 
 ;; Hyde (optional)
 (safe-load "hyde" nil t)
+(safe-load "hyde-settings" nil t)
+
 ;; Undo-tree
 ;; Package setup & initialization
 (require 'packages)
@@ -41,7 +43,11 @@
 ;; Custom org settings
 (require 'org-settings)
 
-;; Custom Python JEDI settings
-(require 'jedi-settings)
 ;; Custom mu4e settings
 (require 'mu4e-settings)
+(require 'mu4e-org-capture)
+
+;; Custom Python JEDI settings
+;; disabled by default
+;;
+;; (require 'jedi-settings)

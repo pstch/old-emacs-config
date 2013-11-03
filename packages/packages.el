@@ -30,6 +30,7 @@
 		     popup
 		     python-django
 		     python-info
+;;		     jedi (disabled)
 		     rainbow-mode
 		     shell-history
 		     sql-indent
