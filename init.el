@@ -34,11 +34,17 @@
 ;; Package setup & initialization
 (require 'packages)
 
+;; Timestamps in *Messages*
+(require 'message-timestamps)
+
 ;; Themes
 (require 'themes)
 
 ;; Modes
 (require 'modes)
+
+;; Speedbar
+(require 'speedbar-settings)
 
 ;; Custom org settings
 (require 'org-settings)

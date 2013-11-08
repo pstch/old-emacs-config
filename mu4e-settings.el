@@ -26,6 +26,7 @@
 
 ;; offlineimap link
 (setq mu4e-get-mail-command "offlineimap")
+(setq mu4e-update-interval 180)
 
 ;; cryptography
 (setq mml2015-use 'epg)
