@@ -12,7 +12,7 @@
 
 ;; packages to check for
 (setq package-list '(direx
-		     yasnippet
+;;		     yasnippet (disabled)
 		     deferred
 		     epc
 		     git-commit-mode
