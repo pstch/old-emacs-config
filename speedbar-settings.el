@@ -1,4 +1,5 @@
-(speedbar 1)
+;; (speedbar 1)
+;; disabled at the moment
 
 (setq speedbar-mode-hook '(lambda ()
     (interactive)
