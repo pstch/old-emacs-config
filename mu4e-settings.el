@@ -33,7 +33,7 @@
 
 ;; maildirs extension
 (mu4e-maildirs-extension)
-(setq   mu4e-maildir-shortcuts
+(setq mu4e-maildir-shortcuts
 	'(("/default/INBOX"         . ?i)
 	  ("/default/queue"	    . ?q)
 	  ("/default/sent"          . ?s)
@@ -74,9 +74,9 @@
 ;;  multiple accounts
 (defvar my-mu4e-account-alist
   '(("default"
-     (user-mail-address "hugo@pstch.net"))
-     (smtpmail-default-smtp-server "preeza.vpn.pstch.net:")
-     (smtpmail-smtp-service 12025)
+     (user-mail-address "hugo@pstch.net")
+     (smtpmail-default-smtp-server "preeza.vpn.pstch.net")
+     (smtpmail-smtp-service 12025))
     ("gmail/hugo.geoffroy"
      (user-mail-address "hugo.geoffroy@gmail.com")
      (smtpmail-default-smtp-server "smtp.gmail.com"))
