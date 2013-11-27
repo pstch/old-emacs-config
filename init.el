@@ -30,6 +30,9 @@
 (safe-load "hyde" nil t)
 (safe-load "hyde-settings" nil t)
 
+;; EFP
+(safe-load  "~/.emacs.d/emacs-python/epy-init.el" nil t)
+
 ;; Undo-tree
 ;; Package setup & initialization
 (require 'packages)
