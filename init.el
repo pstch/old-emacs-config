@@ -9,6 +9,9 @@
 ;; Safe load
 (require 'safe-load)
 
+;; ibuffer
+(global-set-key (kbd "C-x C-b") 'ibuffer)
+
 ;; Custom file
 (setq custom-file "~/.emacs.d/custom/custom.el")
 (unless (file-exists-p custom-file)
